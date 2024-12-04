@@ -1,0 +1,45 @@
+:root {
+  --main-color: #24343e;
+  --secondary-color: #17a2b8;
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+.shawdow {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1,
+h2 {
+  color: var(--secondary-color);
+}
+input {
+  color: white !important;
+  background-color: var(--main-color) !important;
+}
+input::placeholder {
+  color: #b6b6b6 !important;
+}
+
+.login,
+.logout {
+  background-color: var(--main-color);
+  border: 1px var(--secondary-color) solid;
+  color: var(--secondary-color);
+  transition: all 0.15s;
+}
+.login:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.logout:hover {
+  background-color: var(--secondary-color) !important;
+  color: white;
+}
+
+a:hover{
+  transition: all 0.30s;
+  text-decoration:underline !important;
+}
+
